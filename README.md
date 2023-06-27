@@ -1,4 +1,7 @@
 # UAS-PAA2-MIRA
+Nama: Mira Cahyati
+Nim: F55121090
+Kelas: TI C
 # jawaban no 1
 Hasil analisis Bubble sort:
 Worst Case Analysis:
