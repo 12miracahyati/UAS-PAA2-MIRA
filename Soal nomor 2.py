@@ -71,10 +71,13 @@ def dijkstra(graph, start):
 # Contoh penggunaan
 
 graph = {
-    0: {1: 2, 2: 4, 3: 1},
-    1: {0: 2, 2: 3, 3: 4},
-    2: {0: 4, 1: 3, 3: 2},
-    3: {0: 1, 1: 4, 2: 2}
+    'A': {'B': 12, 'C': 10, 'G': 12},
+    'B': {'C': 8, 'D': 12},
+    'C': {'D': 11, 'E': 3, 'G': 9},
+    'D': {'C': 11, 'E': 11, 'F': 10},
+    'E': {'G': 7, 'F': 6},
+    'G': {'A': 12, 'C': 9, 'E': 7, 'F': 9},
+    'F': {}
 }
 
 choice = input("Pilih algoritma (TSP/Dijkstra): ")
